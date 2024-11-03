@@ -1,0 +1,49 @@
+.chatlist{
+  height: 75%;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.chat{
+  height: 100%;
+}
+.chatItem{
+  display: flex;
+  border: 2px solid black;
+  background-color: white;
+  width: 200px;
+  padding: 10px 10px 10px 10px;
+  flex-direction: column;
+}
+.chatItemDown{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: small;
+}
+.chatItemName{
+  align-self: flex-start;
+}
+.ChatPanel{
+  height: 100vh;
+  max-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.ChatAdder{
+  justify-self: flex-end;
+}
+.ChatAdder input{
+  width: 200px;
+  height: 50px;
+}
+.ChatAdder button{
+  width: 100px;
+  height: 25px;
+  background-color: aqua;
+}
+.ChatName{
+  font-size: large;
+  align-self: start;
+}

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <connectionStrings>
+    <add name="Default"
+     providerName="Microsoft.Data.SqlClient"
+     connectionString="server=localhost;uid=Admin;pwd=password;database=Default" />
+  </connectionStrings>
+</configuration>

@@ -1,0 +1,19 @@
+.buttonsitem{
+  width: 100%;
+}
+.buttonsitem .buttonlist{
+  width: 100%;
+}
+.buttonlist{
+  display: flex;
+  justify-content: space-around;
+  flex: auto;
+  width: 100%;
+}
+.btn{
+  width: 100px;
+  background-color:aqua;
+  border-color: blue;
+  border: 1px;
+
+}

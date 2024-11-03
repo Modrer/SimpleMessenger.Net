@@ -1,0 +1,10 @@
+.MemberList{
+  display: flex;
+  flex-direction: column;
+}
+.Member{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 5px 5px 5px;
+}

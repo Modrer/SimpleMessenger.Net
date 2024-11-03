@@ -1,0 +1,34 @@
+.search{
+  width: 200px;
+  height: 25px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 10px 10px 10px 10px red;
+  background-color: wheat;
+
+}
+.search input{
+  width: 100px;
+}
+.search i{
+  transform: scale(1.5);
+  align-self: center;
+}
+
+.Tabs{
+  width: 100%;
+
+}
+.Tabs button{
+  width: 100px;
+  height: 25px;
+  border: none;
+}
+.UserResult{
+  margin: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

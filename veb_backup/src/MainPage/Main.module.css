@@ -1,0 +1,104 @@
+.main{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  max-height: 100vh;
+
+}
+.right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  height: 100%;
+  width: 200px;
+  background-color:aliceblue;
+}
+.flexLine{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+.flexLine span{
+
+
+  color: black;
+  margin: 10px 10px 10px 10px;
+}
+.cancelButton{
+  border: none;
+  width: 50px;
+  height: 50px;
+  color: black;
+  margin: 10px 10px 10px 10px;
+  align-self: start;
+  font-size: 50px;
+}
+.chatInfo{
+  justify-self: end;
+  margin: 10px 10px 10px 10px;
+  font-size: large;
+  width: auto;
+
+}
+/* .search{
+  width: 200px;
+  height: 50px;
+  margin: 10px 10px 10px 10px;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search input{
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+ 
+} */
+.search{
+  width: 200px;
+  height: 25px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 10px 10px 10px 10px red;
+  background-color: wheat;
+
+}
+.search input{
+  width: 100px;
+  justify-self: flex-start;
+}
+.search i{
+  transform: scale(1.5);
+  align-self: center;
+}
+.chatItemName{
+  top: 0;
+  left: 0;
+}
+.SearchUpPanel{
+  display: flex;
+  flex-direction: row;
+}
+/* .LeftPanel{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.FlexEnd{
+  justify-self: flex-end;
+} */
+.LogOut{
+  height: 50px;
+  justify-self: center;
+  align-self: center;
+  margin: 5px;
+}
